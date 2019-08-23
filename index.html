@@ -1,15 +1,75 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Area 51</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header id="nav">
+
+    <nav id="navbar">
+      <img id="image" src="https://i.ibb.co/3dVMMNF/descarga-4.jpg">
+      <button id="button1"> Que es cifrado cesar?</button>
+
+    </nav>
+  </header>
+
+
+
+  <div id="pooo" >
+    <img src="https://i.ibb.co/RvVySx0/original-1.gif" >
+
+  </div>
+
+  <section id="first-page">
+
+    <div id="text">
+      <p id="letter">Trabajador del area 51
+        <br>
+        Esta plataforma es para transformar tu informacion en mensaje encriptado (que es llamado cifrado cesar)
+        y
+        asi enviarlo a otros trabajadores para que nuestra información confidencial no caiga en manos de personas no
+        autorizadas.
+        <br>
+        No puede salir la informacion a personas externas ni compartirlo,
+        queremos proteger area 51 
+        <strong>para eso ingresa tu nombre:</strong></p>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+    <div name="registro">
+
+      <span class="userName"></span><input id="myName" type="text" placeholder="Coloca tu nombre aquí.">
+      <button id="redy"> Listo</button>
+    </div>
+
+    <div id="hello">
+    </div>
+
+  </section>
+
+
+
+  <section id="second-page">
+
+    <h4 id="instructions1"> Instrucciones: -Primero ingresa un numero, luego ingresa un texto a cifrar</br>
+      Presiona el boton Cifrar y veras el texto cifrado</br>
+      Para descifrar, ingresa en texto cifrado y presiona descifrar y veras el resultado.</h4>
+    <input id="numberCesar" placeholder="numero:s" type="number">
+    <br>
+    <textarea class="text" id="text1" placeholder="ingresa tu texto aqui"></textarea>
+    <textarea class="text" id="text2" readonly></textarea>
+
+    <button id="encode">Cifrar</button>
+    <button id="decode">Descifrar</button>
+    <button id="copy">Copiar </button>
+  </section>
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
