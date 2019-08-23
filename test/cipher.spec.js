@@ -1,5 +1,6 @@
+//describe a quien voy a testear
 describe('cipher', () => {
-
+//que voy a testear
   it('debería ser un objeto', () => {
     assert.equal(typeof cipher, 'object');
   });

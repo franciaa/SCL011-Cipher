@@ -1,9 +1,24 @@
 window.cipher = {
-  encode: () => {
-    /* Acá va tu código */
+  encode: (text,number) => {
+
+    let result = "";
+    for (let index = 0; index < text.length; index++) {
+      let codeAscii = text.charCodeAt(index);
+      let offset = (codeAscii -65+number)%26+65;
+      result += String.fromCharCode(offset);
     
+    }
+    return result
   },
-  decode: () => {
-    /* Acá va tu código */
+
+  decode: (text,number) => {
+    let result = "";
+    for (let index = 0; index < text.length; index++) {
+      let codeAscii = text.charCodeAt(index);
+      let offset= (codeAscii -65-number)%26+65;
+      result += String.fromCharCode(offset);
+    
+    }
+    return result
   }
 };
