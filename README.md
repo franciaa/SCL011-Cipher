@@ -40,8 +40,9 @@ Instrucciones:
 
 primero parti haciendo un scketch de lo que seria mi pagina 
 
-![alt text]
+![alt-text](https://i.ibb.co/bBfsXcH/Whats-App-Image-2019-08-25-at-7-41-13-PM.jpg)
 
+* Prototipado alta fidelidad [https://www.figma.com/file/KlvsoYsJy0P8zVFCxnmqvz/Untitled?node-id=39%3A0]
 
 
 
@@ -50,6 +51,7 @@ primero parti haciendo un scketch de lo que seria mi pagina
 Para la planificación utilice trello, este es el link
 
 [planificación][https://trello.com/b/x0ay7VCT/cipher]
+
 ### Desarrollo/ Herramientas
 
 Para el desarrollo tecnico las herramientas utilizadas fueron
