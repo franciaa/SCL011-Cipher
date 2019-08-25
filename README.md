@@ -36,7 +36,11 @@ Instrucciones:
 
     ¡Listo!, 
 
+## Desarrollo de mi pagina
 
+primero parti haciendo un scketch de lo que seria mi pagina 
+
+![alt text]
 
 
 
