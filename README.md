@@ -38,7 +38,7 @@ Instrucciones:
 
 ## Desarrollo de mi pagina
 
-primero parti haciendo un scketch de lo que seria mi pagina 
+primero parti haciendo un sketch de lo que seria mi pagina 
 
 ![alt-text](https://i.ibb.co/bBfsXcH/Whats-App-Image-2019-08-25-at-7-41-13-PM.jpg)
 
